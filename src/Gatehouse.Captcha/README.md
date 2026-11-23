@@ -68,7 +68,7 @@ builder.Services.AddGatehouseCaptcha(builder.Configuration, options =>
 
 - **One app instance.** The ALTCHA signing key and the list of used puzzles live in memory. A restart makes open puzzles invalid (the widget fetches a new one), and several instances would need a shared key and a shared store of used puzzles.
 - No rate limiting inside the package.
-- The package is tested against its own solver, not against the real altcha widget.
+- The automated tests use their own solver, not the altcha widget. With the real altcha 3.x widget the package has been tried in the What2Eat app.
 
 ## License
 

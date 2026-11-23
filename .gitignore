@@ -1,0 +1,21 @@
+# ---- .NET ----
+bin/
+obj/
+artifacts/
+TestResults/
+*.trx
+*.user
+*.rsuser
+*.suo
+.vs/
+
+# ---- IDEs ----
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+
+# ---- OS ----
+.DS_Store
+Thumbs.db

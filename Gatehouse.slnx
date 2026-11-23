@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="CHANGELOG.md" />
+    <File Path="CLAUDE.md" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="global.json" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/docs/">
+    <File Path="docs/plans/0.1-captcha.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Gatehouse.Captcha/Gatehouse.Captcha.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Gatehouse.Captcha.Tests/Gatehouse.Captcha.Tests.csproj" />
+  </Folder>
+</Solution>

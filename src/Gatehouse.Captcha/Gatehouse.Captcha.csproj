@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <PackageId>Gatehouse.Captcha</PackageId>
+    <Description>Captcha checks for ASP.NET Core minimal APIs: self-hosted ALTCHA proof of work (the PBKDF2 format of the altcha 3.x widget) and Cloudflare Turnstile behind one interface, with an endpoint filter. Not an official ALTCHA or Cloudflare product.</Description>
+    <PackageTags>captcha;altcha;turnstile;cloudflare;aspnetcore;minimal-api;proof-of-work;bot-protection</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <InternalsVisibleTo Include="Gatehouse.Captcha.Tests" />
+  </ItemGroup>
+
+</Project>

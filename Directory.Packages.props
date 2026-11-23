@@ -1,0 +1,17 @@
+<Project>
+  <!--
+    Central package management: every NuGet version lives here.
+    In a .csproj write only <PackageReference Include="Name" /> (no Version).
+    Before adding a package, check its licence: permissive only (MIT, Apache-2.0, BSD), no commercial tiers.
+  -->
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup Label="Tests">
+    <PackageVersion Include="coverlet.collector" Version="6.0.4" />                                   <!-- MIT -->
+    <PackageVersion Include="Microsoft.AspNetCore.TestHost" Version="10.0.14" />                      <!-- MIT -->
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />                             <!-- MIT -->
+    <PackageVersion Include="xunit" Version="2.9.3" />                                                <!-- Apache-2.0 -->
+    <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.4" />                            <!-- Apache-2.0 -->
+  </ItemGroup>
+</Project>

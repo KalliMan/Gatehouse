@@ -11,7 +11,6 @@ Gatehouse is a set of small open-source NuGet packages for ASP.NET Core sign-up 
 
 The code comes from two apps by the same author:
 
-- [What2Eat](https://getwhat2eat.com), a web app that suggests recipes from what is in your fridge.
 - [MDBNavigator](https://demo.mdbnavigator.com/), an open-source database navigator ([source on GitHub](https://github.com/KalliMan/MDBNavigator)).
 
 ## License

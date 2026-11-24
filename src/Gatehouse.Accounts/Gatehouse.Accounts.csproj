@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <PackageId>Gatehouse.Accounts</PackageId>
+    <Description>Sign-in with Google, Microsoft, Facebook and GitHub for ASP.NET Core Identity (find, link or create the account, safely), and the sender of Identity's account emails with links to your frontend, over SMTP. Built for minimal APIs and single-page apps.</Description>
+    <PackageTags>identity;aspnetcore;external-login;google;microsoft;facebook;github;oauth;email;smtp;minimal-api</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNet.Security.OAuth.GitHub" />
+    <PackageReference Include="MailKit" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <InternalsVisibleTo Include="Gatehouse.Accounts.Tests" />
+  </ItemGroup>
+
+</Project>
